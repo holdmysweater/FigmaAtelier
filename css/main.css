@@ -1,5 +1,11 @@
+@font-face {
+    font-family: OldStandardTT;
+    src: url("../fonts/OldStandardTT-regular.ttf");
+}
+
 :root {
     font-size: 62.5%;
+    font-family: "OldStandardTT", sans-serif;
     --color-background: #181511;
     --color-yellow: #FFAE2B;
     --color-white: #FFFFFF;
