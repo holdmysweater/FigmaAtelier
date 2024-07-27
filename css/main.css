@@ -6,3 +6,7 @@
     --color-text: #ACA592;
     --color-border: #4B4136;
 }
+
+body {
+    background-color: var(--color-background);
+}
