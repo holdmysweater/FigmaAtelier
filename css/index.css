@@ -104,6 +104,47 @@ main a:hover {
     background-position: center;
 }
 
+.section-services {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-services h5 {
+    margin-bottom: 20px;
+}
+
+.section-services h2 {
+    margin: 10px 0;
+}
+
+.section-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    border: 1px solid var(--color-border);
+}
+
+.section-services-box img {
+    width: 60px;
+    height: 60px;
+    align-self: center;
+}
+
+.section-services-box h3 {
+    padding: 20px 0 10px 0;
+}
+
+.section-services-box p {
+    text-align: center;
+}
+
+.section-services-box p:nth-child(4) {
+    font-size: 1.1rem;
+}
+
 @media only screen and (min-width: 992px) {
     main div h1 {
         width: 880px;

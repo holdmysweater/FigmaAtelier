@@ -60,6 +60,12 @@ h5 {
     text-transform: uppercase;
 }
 
+p {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    color: var(--color-text);
+}
+
 .main-wrapper {
     width: calc(100% - 40px);
     display: flex;
