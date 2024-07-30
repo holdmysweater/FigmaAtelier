@@ -357,6 +357,10 @@ main a:hover,
         width: 1200px;
     }
 
+    .section-instagram-top-border {
+        width: 1200px;
+    }
+
     .section-instagram .main-wrapper .section-instagram-photo:nth-child(1),
     .section-instagram .main-wrapper .section-instagram-photo:nth-child(5) {
         display: block;
