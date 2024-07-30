@@ -35,6 +35,11 @@ main a {
     display: block;
     padding: 10px 20px;
     margin-top: 20px;
+    transition: all ease 0.2s;
+}
+
+main a:hover {
+    background: var(--color-white);
 }
 
 @media only screen and (min-width: 992px) {
