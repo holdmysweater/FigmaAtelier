@@ -17,6 +17,43 @@ body {
     background-color: black;
 }
 
+h1 {
+    font-size: 7rem;
+    line-height: 8rem;
+    color: var(--color-white);
+    text-align: center;
+}
+
+h2 {
+    font-size: 6rem;
+    line-height: 7rem;
+    color: var(--color-yellow);
+    text-align: center;
+}
+
+h3 {
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    color: var(--color-yellow);
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    color: var(--color-white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    color: var(--color-text);
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* Header */
 
 .header-main {
