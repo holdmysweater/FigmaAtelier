@@ -60,7 +60,7 @@ h5 {
 }
 
 .main-wrapper {
-    width: calc(100% - 30px);
+    width: calc(100% - 40px);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
