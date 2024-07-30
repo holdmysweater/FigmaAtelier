@@ -1,0 +1,31 @@
+main {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background: var(--color-background);
+    margin-top: 80px;
+    background-image: url("../img/main_section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+main h5 {
+    color: var(--color-yellow);
+    padding-bottom: 10px;
+}
+
+main a {
+    width: fit-content;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+    color: var(--color-background);
+    text-transform: uppercase;
+    background: var(--color-yellow);
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
