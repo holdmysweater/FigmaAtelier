@@ -47,7 +47,6 @@ main a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: var(--color-background);
 }
 
 .section-templates .main-wrapper {
@@ -61,7 +60,7 @@ main a:hover {
 
 .section-templates-box {
     width: 390px;
-    height: 315px;
+    height: 290px;
     border: 1px solid var(--color-border);
     margin: 10px;
     display: flex;
@@ -96,6 +95,15 @@ main a:hover {
     width: 100%;
 }
 
+.section-templates .banner {
+    width: 100%;
+    height: 100vw;
+    background-image: url("../img/banner_laptop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media only screen and (min-width: 992px) {
     main div h1 {
         width: 880px;
@@ -113,9 +121,16 @@ main a:hover {
 
     .section-templates-box {
         width: 390px;
+        height: 315px;
     }
 
     .section-templates-box h4 {
         margin-bottom: 40px;
+    }
+
+    .section-templates .banner {
+        height: 70vh;
+        margin-top: 60px;
+        margin-bottom: 120px;
     }
 }
