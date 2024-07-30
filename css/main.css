@@ -234,6 +234,10 @@ h5 {
         transition: all ease 0.15s;
     }
 
+    .header-main-nav ul li:nth-child(1) a {
+        color: var(--color-yellow);
+    }
+
     .header-main-nav ul li a:hover {
         color: var(--color-white);
     }
