@@ -48,6 +48,7 @@ h4 {
     color: var(--color-white);
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h5 {

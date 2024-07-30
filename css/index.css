@@ -47,20 +47,22 @@ main a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: var(--color-background);
 }
 
 .section-templates .main-wrapper {
+    width: calc(100% - 20px);
     margin: 50px 0;
 }
 
 .section-templates h2 {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .section-templates-box {
     width: 300px;
     border: 1px solid var(--color-border);
-    margin: 10px 0;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -87,5 +89,21 @@ main a:hover {
     main a {
         margin-top: 40px;
         padding: 15px 30px 13px 30px;
+    }
+
+    .section-templates h2 {
+        margin-bottom: 50px;
+    }
+
+    .section-templates-box {
+        width: 390px;
+    }
+
+    .section-templates-box img {
+        width: 350px;
+    }
+
+    .section-templates-box h4 {
+        margin-bottom: 40px;
     }
 }
