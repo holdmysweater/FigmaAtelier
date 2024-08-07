@@ -132,12 +132,12 @@ p {
     text-transform: uppercase;
     border: 1px solid var(--color-yellow);
     padding-top: 2px;
-    transition: all ease-in-out 0.15s;
+    transition: all ease-in-out 0.3s;
 }
 
 .header-main-button:hover {
-    color: var(--color-white);
-    border: 1px solid var(--color-white);
+    color: var(--color-background);
+    background: var(--color-yellow);
 }
 
 .mobile-menu-btn {
